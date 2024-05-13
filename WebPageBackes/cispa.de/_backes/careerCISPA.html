@@ -1,0 +1,124 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <title>Michael Backes</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.html">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Nunito" />
+
+  <meta name="theme-color" content="#fafafa">
+
+  <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+ <div id="introduction-wrapper">
+    <img id="main-profile-pic" src="img/backes.jpg" alt="Michael Backes">
+
+    <div id="bio">
+      <h1>Michael Backes</h1>
+      Founding Director and Chairman
+      <p style="margin: 0"><a href="https://www.cispa.de/">CISPA Helmholtz Center for Information Security</a></p>
+      <p style="margin: 0">director@cispa.de</p>
+    </div>
+  </div>
+    <div id="menu">
+    <div>
+      <a href="index.html">Home</a>
+    </div>
+    <div>
+      <a href="group.html">Group</a>
+    </div>
+    <div>
+      <a href="publications.html">Publications</a>
+    </div>
+	<div>
+      <a href="careerCISPA.html">Joining my Group</a>
+    </div>
+	<div>
+      <a href="aboutme.html">About me</a>
+    </div>
+    <script>
+      $(function () {
+        const current = window.location.pathname.split("https://www.cispa.de/");
+        $('#menu div a').each(function(){
+          const $this = $(this);
+          // if the current path is like this link, make it active
+          if (current.indexOf($this.attr("href")) !== -1) {
+            $this.parent().addClass("now");
+          }
+        })
+      });
+    </script>
+  </div>
+
+  <div id="main"> 
+ 
+	  I have several open positions for outstanding postdocs and PhD students. My research interests have traditionally been quite broad and encompassed various aspects of information security and privacy.
+	  My current research mostly targets trustworthy machine learning in its many facets, and trustworthy information processing in general. 
+	  <br><br>
+
+ 
+  <div>
+<h2>Postdoc Fellowship Program</h2>
+
+
+I have been swamped with postdoc applications in the last years - many more than I managed to even carefully process in acceptable time.  
+To remedy this situation, I have set up a dedicated postdoc fellowship program with explicit application deadlines. 
+The goal of this program is to boost the professional career of a small number of exceptionally strong young researchers. Accepted
+candidates will have the opportunity to work with me and my group at CISPA in the area of trustworthy machine learning for two years, 
+will receive close personal mentorship, generous funding for hiring research assistants, research equipment, academic traveling and research visits.<br><br>
+
+
+What the postdoc fellowship program offers:
+
+<ul>
+<li> A two-year full-time contract (in Germany's salary scale: E13/E14)</li>
+<li>  A one-on-one mentorship by me to help you pursue your academic career at the highest level</li>
+<li>  Opportunities to work with my world-class faculties and PhD students </li>
+<li> Generous base funding for hiring research assistants, research equipment, and academic traveling</li>
+<li> Research visits at CISPA's academic partner institutions if desired </li>
+</ul>
+
+The requirements you have to meet to be considered for the program:
+
+<ul>
+<li> You have successfully completed your PhD in CS (or you expect to graduate within the next 9 months)</li>
+<li> Exceptional academic achievements already, in the sense of at least two first-author top-tier conference publications (Core A* in security and/or machine learning)</li>
+<li> Exceptional commitment to research and to starting an academic career</li>
+<li> Strong leadership and communication skills</li>
+</ul>
+<br>
+
+The <b>application deadline</b> is three times a year: January 30th, May 30th, September 30th<br><br>
+
+Application should be sent by email to director@cispa.de
+
+<div>
+<h2>PhD Students</h2>
+If you are interested in doing your PhD in my group at CISPA, please submit your application in the following <a href="https://career.cispa.de/phd.html"><b>website</b></a> indicating you want to work in my group.
+</div>
+
+</div>
+
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
