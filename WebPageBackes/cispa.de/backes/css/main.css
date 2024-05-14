@@ -15,7 +15,6 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
-  overflow-y: overlay;
 }
 
 /*
@@ -273,6 +272,10 @@ body {
   margin: 0 auto !important;
   float: none !important;
   padding: 10px; /* TODO Ask if wanted */
+}
+
+.scrollable-content::-webkit-scrollbar {
+  display: none;
 }
 
 a {
