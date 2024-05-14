@@ -1,0 +1,311 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <title>Michael Backes</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+  <meta name="theme-color" content="#fafafa">
+
+  <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body class="scrollable-content">
+  <div id="menu">
+    <div>
+      <a href="index.html">Home</a>
+    </div>
+    <div>
+      <a href="group.html">Group</a>
+    </div>
+    <div>
+      <a href="publications.html">Publications</a>
+    </div>
+	<div>
+      <a href="careerCISPA.html">Hiring</a>
+    </div>
+	<div>
+      <a href="aboutme.html">About</a>
+    </div>
+    <script>
+      $(function () {
+        const current = window.location.pathname.split("https://www.cispa.de/");
+        $('#menu div a').each(function(){
+          const $this = $(this);
+          // if the current path is like this link, make it active
+          if (current.indexOf($this.attr("href")) !== -1) {
+            $this.parent().addClass("now");
+          }
+        })
+      });
+    </script>
+  </div>
+  <div id="introduction-wrapper">
+    <img id="main-profile-pic" src="img/backes.jpg" alt="Michael Backes">
+
+    <div id="bio">
+      <h1>Michael Backes</h1>
+      Founding Director and Chairman
+      <p style="margin: 0"><a href="https://www.cispa.de/" target="_blank">CISPA Helmholtz Center for Information Security</a></p>
+      <p style="margin: 0">director@cispa.de</p>
+    </div>
+  </div>
+
+  <div id="year"></div>
+
+  <!--Actual tab content-->
+  <div id="main">
+    <div>
+    </div>
+    <div>
+      <h2>Current Members</h2>
+      <div id="members_wrapper">
+      
+        
+        
+        
+        
+        <figure class="member_figure">
+          <img class="member_image" src="img/Min_Chen.jpg" alt="Min Chen">
+          <figcaption class="member_image_caption"><a href="https://milkigit.github.io" target="_blank">Min Chen</a>
+            <br>
+            PhD student
+          </figcaption>
+        </figure>
+        <figure class="member_figure">
+          <img class="member_image" src="img/Junjie_Chu.jpeg" alt="Junjie Chu">
+          <figcaption class="member_image_caption"><a href="https://junjie-chu.github.io/" target="_blank">Junjie Chu</a>
+            <br>
+            PhD student
+          </figcaption>
+        </figure>
+        <figure class="member_figure">
+          <img class="member_image" src="img/Vincent_Hanke.jpg" alt="Vincent Hanke">
+          <figcaption class="member_image_caption"><a>Vincent Hanke</a>
+            <br>
+            PhD student
+          </figcaption>
+        </figure>
+        <figure class="member_figure">
+          <img class="member_image" src="img/Hai_Huang.jpg" alt="Hai Huang">
+          <figcaption class="member_image_caption"><a href="https://miraclehh.github.io/" target="_blank">Hai Huang</a>
+            <br>
+            PhD student
+          </figcaption>
+        </figure>
+        <figure class="member_figure">
+          <img class="member_image" src="img/Yukun_Jiang.jpeg" alt="Yukun Jiang">
+          <figcaption class="member_image_caption" href="https://ashbringer0926.github.io/" target="_blank"><a>Yukun Jiang</a>
+            <br>
+            PhD student
+          </figcaption>
+        </figure>
+        <figure class="member_figure">
+          <img class="member_image" src="img/Zhiqiu_Jiang.jpg" alt="Zhiqiu Jiang">
+          <figcaption class="member_image_caption"><a href="https://liu199604.github.io/" target="_blank">Zhiqiu Jiang</a>
+            <br>
+            Postdoc
+          </figcaption>
+        </figure>
+        <figure class="member_figure">
+          <img class="member_image" src="img/Mingjie_Li.jpeg" alt="Mingjie Li">
+          <figcaption class="member_image_caption"><a href="https://mingjieli0111.github.io/" target="_blank">Mingjie Li</a>
+            <br>
+            Postdoc
+          </figcaption>
+        </figure>
+        <figure class="member_figure">
+          <img class="member_image" src="img/Yiyong_Liu.jpg" alt="Yiyong Liu">
+          <figcaption class="member_image_caption" href="https://liu199604.github.io/" target="_blank"><a>Yiyong Liu</a>
+            <br>
+            PhD student
+          </figcaption>
+        </figure>
+        <figure class="member_figure">
+          <img class="member_image" src="img/Yugeng_Liu.jpg" alt="Yugeng_Liu" >
+          <figcaption class="member_image_caption"><a href="https://liu.ai" target="_blank">Yugeng Liu</a>
+            <br>
+            PhD student
+          </figcaption>
+        </figure>
+        <figure class="member_figure">
+          <img class="member_image" src="img/Sanam_Ghorbani_Lyastani.jpg" alt="Sanam Ghorbani Lyastani">
+          <figcaption class="member_image_caption"><a href="https://sanamlyastani.github.io/" target="_blank">Sanam Ghorbani Lyastani</a>
+            <br>
+            Postdoc
+          </figcaption>
+        </figure>
+        <figure class="member_figure">
+          <img class="member_image" src="img/Yihan_Ma.png" alt="Yihan Ma">
+          <figcaption class="member_image_caption"><a href="https://yvonnemamama.github.io/" target="_blank">Yihan Ma</a>
+            <br>
+            PhD student
+          </figcaption>
+        </figure>
+        <figure class="member_figure">
+          <img class="member_image" src="img/Yiting_Qu.jpg" alt="Yiting Qu">
+          <figcaption class="member_image_caption"><a href="https://yitingqu.github.io/" target="_blank">Yiting Qu</a>
+            <br>
+            PhD student
+          </figcaption>
+        </figure>
+        <figure class="member_figure">
+          <img class="member_image" src="img/Xinyue_Shen.jpeg" alt="Xinyue Shen">
+          <figcaption class="member_image_caption"><a href="https://xinyueshen.me/" target="_blank">Xinyue Shen</a>
+            <br>
+            PhD student
+          </figcaption>
+        </figure>
+        <figure class="member_figure">
+          <img class="member_image" src="img/Wai_Man_Si.jpeg" alt="Wai Man Si">
+          <figcaption class="member_image_caption"><a href="https://raymondhehe.github.io/" target="_blank">Wai Man Si</a>
+            <br>
+            PhD student
+          </figcaption>
+        </figure>
+        <figure class="member_figure">
+          <img class="member_image" src="img/Wenhao_Wang.jpeg" alt="Wenhao Wang">
+          <figcaption class="member_image_caption"><a href="https://wenhaowang1995.github.io/" target="_blank">Wenhao Wang</a>
+            <br>
+            PhD student
+          </figcaption>
+        </figure>
+        <figure class="member_figure">
+          <img class="member_image" src="img/Xun_Wang.jpg" alt="Xun Wang">
+          <figcaption class="member_image_caption"><a>Xun Wang</a>
+            <br>
+            PhD student
+          </figcaption>
+        </figure>
+        <figure class="member_figure">
+          <img class="member_image" src="img/Rui_Wen.jpg" alt="Rui Wen">
+          <figcaption class="member_image_caption"><a href="https://wenruiustc.github.io/" target="_blank">Rui Wen</a>
+            <br>
+            PhD student
+          </figcaption>
+        </figure>
+        <figure class="member_figure">
+          <img class="member_image" src="img/Yixin_Wu.png" alt="Yixin Wu">
+          <figcaption class="member_image_caption"><a href="https://yxoh.github.io/" target="_blank">Yixin Wu</a>
+            <br>
+            PhD student
+          </figcaption>
+        </figure>
+        <figure class="member_figure">
+          <img class="member_image" src="img/Yuan_Xin.jpg" alt="Yuan Xin" >
+          <figcaption class="member_image_caption"><a href="https://applexy.github.io/" target="_blank">Yuan Xin</a>
+            <br>
+            PhD student
+          </figcaption>
+        </figure>
+        <figure class="member_figure">
+          <img class="member_image" src="img/Ziqing_Yang.jpeg" alt="Ziqing Yang">
+          <figcaption class="member_image_caption"><a href="https://zqypku.github.io/" target="_blank">Ziqing Yang</a>
+            <br>
+            PhD student
+          </figcaption>
+        </figure>
+        <figure class="member_figure">
+          <img class="member_image" src="img/Rui_Ye.jpg" alt="Rui Ye">
+          <figcaption class="member_image_caption"><a>Rui Ye</a>
+            <br>
+            PhD student
+          </figcaption>
+        </figure>
+        <figure class="member_figure">
+          <img class="member_image" src="img/Minxing_Zhang.jpeg" alt="Minxing Zhang">
+          <figcaption class="member_image_caption"><a href="https://minxingzhang.github.io/" target="_blank">Minxing Zhang</a>
+            <br>
+            PhD student
+          </figcaption>
+        </figure>
+        <figure class="member_figure">
+          <img class="member_image" src="img/Yang_Zou.jpg" alt="Yang Zou">
+          <figcaption class="member_image_caption"><a href="https://yangzoudreamer.github.io/" target="_blank">Yang Zou</a>
+            <br>
+            PhD student
+          </figcaption>
+        </figure>
+      
+      </div>
+	  </div>
+	  <div>
+      <h2>Alumni of my group (PhD students and Postdocs only)</h2>
+      
+	  The current position in the following list of former PhD students and postdocs is to the best of my knowledge and will potentially be outdated over time.
+	  The list does not include the around 100 Bachelor and Master students that I supervised in the last 20 years.
+	  
+	  <ul class="list_no_dot">
+	    <li><a href="https://www.surrey.ac.uk/people/rizwan-asghar" target="_blank">Rizwan Ashgar</a> (current position: Reader, Department of Computer Science, University of Surrey)</li>
+      <li><a>Matthias Berg</a> (current position: Bundesamt fuer Sicherheit in der Informationstechnik, BSI)</li>
+      <li><a href="https://pascal-berrang.de/" target="_blank">Pascal Berrang</a> (current position: Co-Founder, Nimiq & Assistant Professor, Birmingham)</li>
+      <li><a href="https://svenbugiel.de/" target="_blank">Sven Bugiel</a> (current position: Tenured Faculty, CISPA Helmholtz Center for Information Security)</li>
+      <li><a>Oana Ciobotaru</a> (current position: Cryptography Researcher, OpenZeppelin)<li>
+      <li><a>Duc Cuong Nguyen</a> (current position: Associate General Manager, HCL Vietnam)</li>
+      <li><a href="https://cispa.saarland/group/backes/people/~derr/" target="_blank">Erik Derr</a> (current position: Lead OT Security Consultant, BT Group)</li>
+      <li><a href="https://www.itsec.uni-hannover.de/en/usec/team/duermuth" target="_blank">Markus Duermuth</a> (current position: Associate Professor, Leibniz University Hannover)</li>
+      <li><a href="https://saschafahl.de/" target="_blank">Sascha Fahl </a>(current position: Tenured Faculty, CISPA Helmholtz Center for Information Security)</li>
+      <li><a href="https://aurore54f.github.io/" target="_blank">Aurore Fass</a> (current position: Tenure-Track Faculty, CISPA Helmholtz Center for Information Security)</li>
+      <li><a href="https://www.dariofiore.it/" target="_blank">Dario Fiore</a> (current position: Associate Research Professor, IMDEA, Spain)</li>
+      <li><a href="http://cs.wheatoncollege.edu/~mgagne/index.php" target="_blank">Martin Gagne</a> (current position: Assistant Professor, Wheaton, USA)</li>
+      <li><a href="https://www.uni-hamburg.de/uhh/organisation/praesidium/cdo.html" target="_blank">Sebastian Gerling</a> (current position: Chief Digital Officer, University of Hamburg)</li>
+      <li><a href="https://people.epfl.ch/kathrin.grosse?lang=en" target="_blank">Kathrin Grosse</a> (current position: PostDoc, EPFL Lausanne)</li>
+      <li><a href="https://people.cispa.io/inken.hagestedt/" target="_blank">Inken Hagestedt</a> (current position: Privacy Expert, Apheris)</li>
+      <li><a href="https://cispa.de/en/people/lucjan.hanzlik" target="_blank">Lucjan Hanzlik</a> (current position: Tenure-track Faculty, CISPA Helmholtz Center for Information Security)</li>
+      <li><a href="https://catalin-hritcu.github.io/" target="_blank">Catalin Hritcu</a> (current position: Tenured Faculty, MPI for Cybersecurity, Bochum)</li>
+      <li><a href="https://mhumbert.com/" target="_blank">Mathias Humbert</a> (current position: Associate Professor, Department of Information Systems, University
+      of Lausanne)</li>
+      <li><a href="https://www.cs.purdue.edu/homes/akate/" target="_blank">Aniket Kate</a> (current position: Associate Professor, Purdue University)</li>
+      <li><a>Agnes Kiss</a> (current position: Cryptography Engineer, SINE Foundation)</li>
+      <li><a>Kamil Kluczniak</a> (current position: Senior Consultant, Secunet Security Network AG)</li>
+      <li><a href="https://boriskoepf.de/" target="_blank">Boris Koepf</a> (current position: Scientist, Azure Research)</li>
+      <li><a href="https://hojoon-lee.github.io/" target="_blank">Hojoon Lee</a> (current position: Assistant Professor, SKKU Singapore)</li>
+      <li><a href="https://secpriv.wien/team/306636-matteo-maffei/" target="_blank">Matteo Maffei</a> (current position: Professor, TU Vienna)</li>
+      <li><a href="https://www.its.uni-luebeck.de/mitarbeiterinnen/sebastian-meiser" target="_blank">Sebastian Meiser</a> (current position: PostDoc, ITS, University of Lubeck)</li>
+      <li><a href="https://mohammadi.eu/" target="_blank">Esfandiar Mohammadi</a> (current position: Associate Professor, ITS, University of Lubeck)</li>
+      <li><a>Praveen Manoharan</a> (current position: PhD Student in Astrophysics, University of Tuebingen)</li>
+      <li><a>Stefan Nuernberger</a> (current position: Managing Director, veecle)</li>
+      <li><a href="https://squera.github.io/" target="_blank">Marco Patrigiani</a> (current position: Assistant Professor, University of Trento)</li>
+      <li><a href="https://www.b-tu.de/en/fg-it-sicherheit/team/staff/dr-ivan-pryvalov" target="_blank">Ivan Pryvalov</a> (current position: Junior Research Group Leader, TU Cottbus-Senftenburg)</li>
+      <li><a>Tahleen Awazid Rahman</a> (current position: Senior Data Scientist, Ozone)</li>
+      <li><a href="https://ahmedsalem2.github.io/" target="_blank">Ahmed Salem</a> (current position: Researcher, Microsoft)</li>
+      <li><a href="https://www.reischuk.ch/web/" target="_blank">Raphael Reischuk</a> (current position: Partner and Head of Cybersecurity, Zuhlke Engineering AG)</li>
+      <li><a>Oliver Schranz</a> (current position: CTO, AIS Advanced IT-Security Solutions)</li>
+      <li><a href="https://cispa.saarland/group/backes/people/~jonas.schneider/ target="_blank">Jonas Schneider-Bensch</a> (current position: Cryptography Engineer, Crypsen)</li>
+      <li><a href="https://cispa.saarland/group/backes/people/~simeonovski/" target="_blank">Milivoj Simeonovski</a> (current position: Product Security Programme Manager EMEA, ASSA ABLOY
+      Group)</li>
+      <li><a>Malte Skoruppa</a> (current position: Principal Engineer, Sonar)</li>
+      <li><a href="https://sites.google.com/view/patrick-speicher/" target="_blank">Patrick Speicher</a> (current position: Cyber Security Engineer, ZF Group)</li>
+      <li><a href="https://people.cispa.io/ben.stock/" target="_blank">Ben Stock</a> (current position: Tenured Faculty, CISPA Helmholtz Center for Information Security)</li>
+      <li><a>Bartlomiej Surma</a> (current position: Software Engineer, Google)</li>
+      <li><a>Philipp v. Styp-Rekowsky</a> (current position: Co-Founder, Nimiq)</li>
+      <li><a href="https://qis.rwth-aachen.de/people/unruh/" target="_blank">Dominik Unruh</a> (current position: Professor, University of Aachen)</li>
+      <li><a href="https://yangzhangalmo.github.io/" target="_blank">Yang Zhang</a> (current position: Tenured Faculty, CISPA Helmholtz Center for Information Security)</li>
+      <li><a href="http://zhangzhk.com/" target="_blank">Zhikun Zhang</a> (current position: Visiting Assistant Professor, Stanford University)</li>
+      <li><a href="https://zhengyuzhao.github.io/" target="_blank">Zhengyu Zhao</a> (current position: Assistant Professor, Xian Jiaotong University)</li>
+    </ul>
+  </div>
+  </div>
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
