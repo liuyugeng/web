@@ -267,7 +267,7 @@ Custom styling here past the boilerplate
  */
 body {
   font-size: 12pt;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito';
   line-height: 150%;
   max-width: 900px;
   margin: 0 auto !important;
